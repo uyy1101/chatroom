@@ -1,19 +1,21 @@
-# nodeJS socket 多个聊天室版本
+MIT License
 
->  nodeJS socket聊天室
+Copyright (c) 2017 uyy1101
 
-```$node
-输入 /join roomname 更换房间号
-输入 /nick username 更换个人姓名
-直接输入 发送个人聊天信息
-```
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-- 运用了模块 socket-io 、mime、 fs、 path、http模块
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-
-使用方式：
-```$node
-1.node server.js 
-2.打开浏览器输入 127.0.0.1:8889(端口号可在server.js里面更改，默认为8889)
-```
-代码里面都有注释。
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
